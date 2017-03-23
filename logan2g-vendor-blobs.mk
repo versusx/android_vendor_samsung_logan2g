@@ -115,10 +115,8 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/logan2g/proprietary/lib/hw/camera.sc6820i.so:system/lib/hw/camera.sc6820i.so \
-    vendor/samsung/logan2g/proprietary/lib/hw/audio.primary.sc6820i.so:system/lib/hw/audio.primary.sc6820i.so \
-    vendor/samsung/logan2g/proprietary/lib/hw/gralloc.sc6820i.so:system/lib/hw/gralloc.sc6820i.so \
     vendor/samsung/logan2g/proprietary/lib/hw/hwcomposer.sc6820i.so:system/lib/hw/hwcomposer.sc6820i.so \
-    vendor/samsung/logan2g/proprietary/lib/hw/lights.sc6820i.so:system/lib/hw/lights.sc6820i.so \
+    vendor/samsung/logan2g/proprietary/lib/hw/audio.primary.sc6820i.so:system/lib/hw/audio.primary.sc6820i.so \
     vendor/samsung/logan2g/proprietary/lib/hw/sensors.sc6820i.so:system/lib/hw/sensors.sc6820i.so
 
 PRODUCT_COPY_FILES += \
@@ -126,10 +124,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/logan2g/proprietary/lib/libatchannel.so:system/lib/libatchannel.so \
     vendor/samsung/logan2g/proprietary/lib/libatchannel_wrapper.so:system/lib/libatchannel_wrapper.so \
     vendor/samsung/logan2g/proprietary/lib/libatparser.so:system/lib/libatparser.so \
-    vendor/samsung/logan2g/proprietary/lib/libaudiopolicy_sec.so:system/lib/libaudiopolicy_sec.so \
     vendor/samsung/logan2g/proprietary/lib/libaudio-ril.so:system/lib/libaudio-ril.so \
     vendor/samsung/logan2g/proprietary/lib/libcontrolcsc.so:system/lib/libcontrolcsc.so \
-    vendor/samsung/logan2g/proprietary/lib/libDisplaySyncModule.so:system/lib/libDisplaySyncModule.so \
     vendor/samsung/logan2g/proprietary/lib/libengclient.so:system/lib/libengclient.so \
     vendor/samsung/logan2g/proprietary/lib/libeng_wifi_ptest.so:system/lib/libeng_wifi_ptest.so \
     vendor/samsung/logan2g/proprietary/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
@@ -171,15 +167,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/logan2g/proprietary/lib/libSoundAlive_VSP_ver312a.so:system/lib/libSoundAlive_VSP_ver312a.so \
     vendor/samsung/logan2g/proprietary/lib/libsoundspeed.so:system/lib/libsoundspeed.so \
     vendor/samsung/logan2g/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
-    vendor/samsung/logan2g/proprietary/lib/libUMP.so:system/lib/libUMP.so \
     vendor/samsung/logan2g/proprietary/lib/libvolumemanager.so:system/lib/libvolumemanager.so \
     vendor/samsung/logan2g/proprietary/lib/libwvdrm_L3.so:system/lib/libwvdrm_L3.so \
     vendor/samsung/logan2g/proprietary/lib/libwvm.so:system/lib/libwvm.so \
     vendor/samsung/logan2g/proprietary/lib/libvbeffect.so:system/lib/libvbeffect.so \
     vendor/samsung/logan2g/proprietary/lib/libvbpga.so:system/lib/libvbpga.so \
-    vendor/samsung/logan2g/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
-    vendor/samsung/logan2g/proprietary/lib/libstagefright_soft_h264dec_sprd.so:system/lib/libstagefright_soft_h264dec_sprd.so \
-    vendor/samsung/logan2g/proprietary/lib/libstagefright_soft_mpeg4dec_sprd.so:system/lib/libstagefright_soft_mpeg4dec_sprd.so \
     vendor/samsung/logan2g/proprietary/lib/libWVStreamControlAPI_L3.so:system/lib/libWVStreamControlAPI_L3.so \
     vendor/samsung/logan2g/proprietary/lib/libxlist.so:system/lib/libxlist.so
 
